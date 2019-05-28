@@ -1,0 +1,24 @@
+html, body{
+    height: 100%;
+}
+
+img{
+    max-width: 100%;
+}
+#cover{
+
+    
+   background-image: url('../image/UDIng.jpg');
+    background-size: cover;
+    height: 55%;
+    color:black;
+    text-align: center;
+    align-items: center;
+}
+.bg-article {
+    background-color: #B9B6B6 !important;
+  }
+
+.bg-article-index {
+    background-color: #A4E586 !important;
+}
