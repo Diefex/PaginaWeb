@@ -5,6 +5,34 @@ html, body{
 img{
     max-width: 100%;
 }
+
+img.imgCarta{
+    width: 400px;
+    height: 250px;
+}
+
+img.imgPatrocinadores{
+    width: 250px;
+    height: 250px;
+    margin:10px auto;
+	display:block;
+}
+
+img.imgFacultad{
+    width: 1200px;
+    height: 400px;
+}
+
+img.imgArticulo{
+    width: 200px;
+    height: 200px;
+}
+
+img.imgIcon{
+    width: 50px;
+    height: 50px;
+}
+
 #cover{
 
     
@@ -20,5 +48,5 @@ img{
   }
 
 .bg-article-index {
-    background-color: #A4E586 !important;
+    background-color: #709A5C !important;
 }
