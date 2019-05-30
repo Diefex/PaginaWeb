@@ -23,7 +23,7 @@
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-dark sticky-top">
         <a href="" class="navbar-brand text-center">
-            <img src="img/logo.png" alt="Logo" class="w-50 h-50">
+            <img src="img/logo.png" alt="Logo" class="w-50 h-50 image-responsive">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -32,9 +32,6 @@
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
-                <li class="nav-item active ">
-                    <a class="nav-link text-light" href="#">¿Quienes Somos?</a>
-                </li>
                 <li class="nav-item dropdown ">
                     <a class="nav-link dropdown-toggle  text-light" href="#" id="navbarDropdown" role="button"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -45,14 +42,17 @@
                         <a class="dropdown-item" href="#">Bejeweled </a>
                     </div>
                 </li>
+                <li class="nav-item active ">
+                    <a class="nav-link text-light" href="#noticias">Noticias</a>
+                </li>
+                <li class="nav-item active ">
+                    <a class="nav-link text-light" href="#patrocinadores">Patrocinadores</a>
+                </li>
             </ul>
         </div>
     </nav>
 
     <!-- Carousel Banner -->
-    <div class="container-fluid text-center my-md-5">
-        <h1>SEDES</h1>
-    </div>
     <div class="container-fluid mb-md-5">
         <div class="mw-100">
             <div id="banner" class="carousel slide" data-ride="carousel">
@@ -66,8 +66,8 @@
                 <!-- contenerdor de los items -->
                 <div class="carousel-inner" role="listbox">
                     <div class="carousel-item active">
-                        <a href="https://www.udistrital.edu.co/"> <img src="img/facIngeniería.jpg"
-                                class="d-block w-100 imgFacultad"></a>
+                        <a href="https://www.udistrital.edu.co/"> <img src="img/facIngeniería.jpg"
+                                class="d-block w-100 imgFacultad" alt="Facultad de Ingenieria"></a>
                         <div class="carousel-caption">
                             <h3>Facultad de Ingenieria</h3>
                             <p>Carrera 7 # 40B - 53</p>
@@ -75,7 +75,7 @@
                     </div>
                     <div class="carousel-item">
                         <a href="https://www.udistrital.edu.co/"> <img src="img/facCienciasEducacion.jpg"
-                                class="d-block w-100 imgFacultad"></a>
+                                class="d-block w-100 imgFacultad" alt="Facultad de Ciencias"></a>
                         <div class="carousel-caption">
                             <h3>Facultad de Ciencias y Educación</h3>
                             <p>Carrera 3 # 26A - 40 / Carrera 1 Este # 33 - 54</p>
@@ -83,7 +83,7 @@
                     </div>
                     <div class="carousel-item">
                         <a href="https://www.udistrital.edu.co/"> <img src="img/facMedioAmbiente.jpg"
-                                class="d-block w-100 imgFacultad"></a>
+                                class="d-block w-100 imgFacultad" alt="Facultad de MedioAmbiente"></a>
                         <div class="carousel-caption">
                             <h3>Facultad de Medio Ambiente</h3>
                             <p>Carrera 5 Este # 15-82</p>
@@ -91,7 +91,7 @@
                     </div>
                     <div class="carousel-item">
                         <a href="https://www.udistrital.edu.co/"> <img src="img/facASAB.jpg"
-                                class="d-block w-100 imgFacultad"></a>
+                                class="d-block w-100 imgFacultad" alt="Facultad ASAB"></a>
                         <div class="carousel-caption">
                             <h3>Facultad de Artes</h3>
                             <p>Carrera 5 Este # 15-82 / Calle 14 # 7-46 Este</p>
@@ -112,65 +112,44 @@
     </div>
 
     <!-- cartas ingenierosv-->
-    <div class="container-fluid text-center">
-        <h1>NUESTROS INGENIEROS</h1>
+    <div class="container-fluid text-center alert-success py-md-4">
+        <h1>Nuestros Ingenieros</h1>
     </div>
     <div class="container my-md-5">
         <div class="row">
             <div class="col-md">
-                <div class="card rounded-lg bg-dark text-light">
-                    <img src="img/perfilDiegoV.jpeg" class="card-img-top imgCarta" />
-                    <div class="card-body">
-                        <h5 class="card-title">Diego Velez</h5>
-                        <p class="card-text">Encargado de Desarrollo</p>
-                        <a href="#" class="btn btn-success">Ver Mas</a>
+                <div class="contaniner shadow-lg">
+                    <div class="card rounded-lg bg-dark text-light ">
+                        <img src="img/perfilDiegoV.jpeg" class="card-img-top imgCarta" />
+                        <div class="card-body">
+                            <h5 class="card-title">Diego Velez</h5>
+                            <p class="card-text">Encargado de Desarrollo</p>
+                            <a href="#" class="btn btn-success">Ver Mas</a>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="col-md">
-                <div class="card rounded-lg bg-dark text-light">
-                    <img src="img/perfilNicolas.jpeg" class="card-img-top imgCarta" />
-                    <div class="card-body">
-                        <h5 class="card-title">Nicolas Buitrago</h5>
-                        <p class="card-text">Encargado de Marketing</p>
-                        <a href="#" class="btn btn-success">Ver Mas</a>
+                <div class="contaniner shadow-lg">
+                    <div class="card rounded-lg bg-dark text-light">
+                        <img src="img/perfilNicolas.jpeg" class="card-img-top imgCarta" />
+                        <div class="card-body">
+                            <h5 class="card-title">Nicolas Buitrago</h5>
+                            <p class="card-text">Encargado de Marketing</p>
+                            <a href="nicolas.html" class="btn btn-success">Ver Mas</a>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="col-md">
-                <div class="card rounded-lg bg-dark text-light">
-                    <img src="img/perfilDiego.png" class="card-img-top imgCarta" />
-                    <div class="card-body">
-                        <h5 class="card-title">Diego Lizarazo</h5>
-                        <p class="card-text">Encargado de Diseño</p>
-                        <a href="#" class="btn btn-success">Ver Mas</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- cartas patrocinadores-->
-    <div class="container-fluid text-center">
-        <h1>PATROCINADORES</h1>
-    </div>
-    <div class="container my-md-5">
-        <div class="row">
-            <div class="col-md">
-                <div class="card rounded-lg bg-dark text-light">
-                    <img src="img/patEclipse.png" class="card-img-top imgPatrocinadores" />
-                    <div class="card-body">
-                        <h5 class="card-title">Eclipse Foundation</h5>
-                        <a href="https://www.eclipse.org/" class="btn btn-success">Ver Mas</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md">
-                <div class="card rounded-lg bg-dark text-light">
-                    <img src="img/patGoogle.png" class="card-img-top imgPatrocinadores" />
-                    <div class="card-body">
-                        <h5 class="card-title">Google</h5>
-                        <a href="https://www.google.com/" class="btn btn-success">Ver Mas</a>
+                <div class="contaniner shadow-lg">
+                    <div class="card rounded-lg bg-dark text-light">
+                        <img src="img/perfilDiego.png" class="card-img-top imgCarta" />
+                        <div class="card-body">
+                            <h5 class="card-title">Diego Lizarazo</h5>
+                            <p class="card-text">Encargado de Diseño</p>
+                            <a href="#" class="btn btn-success">Ver Mas</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -178,11 +157,11 @@
     </div>
 
     <!-- articulos -->
-    <div class="container-fluid text-center font-weight-bold">
-        <h1>LO MAS ACTUAL</h1>
+    <div class="container-fluid text-center font-weight-bold alert-success py-md-4" id="noticias">
+        <h1>Lo Mas Actual</h1>
     </div>
 
-    <div class="container my-md-4 media text-light rounded-lg bg-article-index">
+    <div class="container my-md-4 media text-light rounded-lg bg-article-index shadow-lg">
         <span class="align-middle">
             <img src="img/imgSudoku.png" class=" rounded-lg imgArticulo">
         </span>
@@ -199,7 +178,7 @@
             </div>
         </span>
     </div>
-    <div class="container my-md-4 media  bg-article-index text-light rounded-lg">
+    <div class="container my-md-4 media  bg-article-index text-light rounded-lg shadow-lg">
 
         <span class="align-middle">
             <div class="media-body">
@@ -219,8 +198,40 @@
         </span>
     </div>
 
+    <!-- cartas patrocinadores-->
+    <div class="container-fluid text-center alert-success py-md-4" id="patrocinadores">
+        <h1>Patrocinadores</h1>
+    </div>
+    <div class="container my-md-5">
+        <div class="row">
+            <div class="col-md">
+                <div class="contaniner shadow-lg">
+                    <div class="card rounded-lg bg-dark text-light">
+                        <img src="img/patEclipse.png" class="card-img-top imgPatrocinadores" />
+                        <div class="card-body">
+                            <h5 class="card-title">Eclipse Foundation</h5>
+                            <a href="https://www.eclipse.org/" class="btn btn-success">Ver Mas</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="contanier shadow-lg">
+                    <div class="card rounded-lg bg-dark text-light">
+                        <img src="img/patGoogle.png" class="card-img-top imgPatrocinadores" />
+                        <div class="card-body">
+                            <h5 class="card-title">Google</h5>
+                            <a href="https://www.google.com/" class="btn btn-success">Ver Mas</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- flooter -->
-    <div class="container-fluid my-md-5 bg-dark">
+    <div class="container-fluid mt-md-5 bg-dark">
         <div class="container">
             <div class="footer rounded-lg text-light">
                 <div class="row">
@@ -237,15 +248,16 @@
                         <h2>CONTACTO</h2><br>
                         <a href="#">
                             <img src="img/iconWA.png" class="imgIcon"> 3109000800</a><br><br>
-                        <a href="https://www.google.com/maps/place/Universidad+Distrital+Francisco+Jos%C3%A9+de+Caldas/@4.628032,-74.0654915,15z/data=!4m2!3m1!1s0x0:0xddf14904a87dfb47?sa=X&ved=2ahUKEwiFjrqgzr_iAhWPv1kKHfmNBokQ_BIwCnoECA0QCA">
-                            <img src="img/iconMaps.png" class="imgIcon"> Ubicacion</a><br><br>
+                        <a
+                            href="https://www.google.com/maps/place/Universidad+Distrital+Francisco+Jos%C3%A9+de+Caldas/@4.628032,-74.0654915,15z/data=!4m2!3m1!1s0x0:0xddf14904a87dfb47?sa=X&ved=2ahUKEwiFjrqgzr_iAhWPv1kKHfmNBokQ_BIwCnoECA0QCA">
+                            <img src="img/iconMaps.png" class="imgIcon"> Carrera 7 # 40B - 53</a><br><br>
                     </div>
                     <div class="col-4 px-md-4 py-md-4">
                         <h2>PROYECTOS</h2><br>
                         <a href="#">
-                            <img src="img/iconSudoku.png" class="imgIcon">   Sudoku</a><br><br>
+                            <img src="img/iconSudoku.png" class="imgIcon"> Sudoku</a><br><br>
                         <a href="#">
-                            <img src="img/iconBejeweled.png" class="imgIcon">   Bejeweled</a><br><br>
+                            <img src="img/iconBejeweled.png" class="imgIcon"> Bejeweled</a><br><br>
                     </div>
                 </div>
             </div>
